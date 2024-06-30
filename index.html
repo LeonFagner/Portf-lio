@@ -8,26 +8,19 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="hero-container">
-        <header>
-            <nav>
-                <ul>
-                    <li  id="home">Home</li>
-                    <li onclick="projetos()" id="projetos">Projetos</li>
-                    <li onclick="tecnologias()">Tecnologias</li>
-                    <li onclick="contatos()">Contato</li>
-                </ul>
-            </nav>
-        </header>
-        <h1>Densenvolvedor Front-End</h1>
-        <svg class="arrows">
-            <path class="a1" d="M0 0 L30 32 L60 0"></path>
-            <path class="a2" d="M0 20 L30 52 L60 20"></path>
-            <path class="a3" d="M0 40 L30 72 L60 40"></path>
-        </svg>
-    </div>
-    <div class="content-container">
+    
+    <header>
+        <nav>
+            <ul>
+                
+                <li onclick="tecnologias()">Home</li>
+                <li onclick="projetos()" id="projetos">Projetos</li>
+                <li onclick="contatos()">Contato</li>
+            </ul>
+        </nav>
+    </header>
         <div class="profile-container">
+            
             <div class="profile-content">
                 <div class="profile-card">
                     <img class="profile-image" src="./assets/e7feeb04c3d1495588af36a329fb2921.webp" />
@@ -60,7 +53,7 @@
 
             </p>
         </div>
-    </div>
+   
 
     <div class="content-container">
         <div class="project-container">
@@ -111,7 +104,10 @@
             <div class="background">
                 <p>Obrigado por visitar meu perfil. Se você estiver interessado em discutir oportunidades de carreira ou tiver alguma pergunta sobre meu currículo, por favor, entre em contato comigo através do WhatsApp</p>
                 
-                <button class="whatsapp-button" id=" whatsapp-id" onclick="redirectWhatsApp()"> Contato</button>
+                <button class="whatsapp-button" id=" whatsapp-id" onclick="redirectWhatsApp()"> Contato </button>
+                <a href="./assets/Leon_Fagner_currículo (1).pdf" download="currículo Leon Fagner">
+                    <span>Download Cv </span>
+                  </a>
             </div>
         
         </div>

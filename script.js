@@ -1,19 +1,13 @@
 
 function projetos(){
-    let vh = 200; 
-    window.scrollTo({
-            top: vh * window.innerHeight / 100, 
-             behavior: 'smooth'
-           });
-
-}function tecnologias(){
-    vh=100;
+    let vh = 100; 
     window.scrollTo({
             top: vh * window.innerHeight / 100, 
              behavior: 'smooth'
            });
 
 }
+
 function contatos(){
     vh=300;
     window.scrollTo({
