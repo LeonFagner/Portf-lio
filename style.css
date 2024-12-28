@@ -5,8 +5,10 @@
     font-family: 'Oswald', sans-serif;
     
 }
+
 body{
     background: black;
+    overflow-x: hidden;
 }
 header{
     background: black;
@@ -31,7 +33,8 @@ ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
-    width: 100%px;
+    width: 100%;
+    
 }
 
 li {
@@ -102,6 +105,7 @@ li:hover {
 .profile-container {
     color: #333;
     height: 90vh;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -121,9 +125,9 @@ li:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 350px;
+    width: 20rem;
     background: #fff;
-    padding: 30px;
+    padding: 1rem;
     border-radius: 8px;
 }
 
@@ -175,7 +179,8 @@ li:hover {
     width: 430px;
     font-family: 'Oswald', sans-serif;
     color: #fff;
-    font-size: 20px;
+    font-size: 1.5rem;
+    
 }
 
 
@@ -219,6 +224,7 @@ li:hover {
     border-radius: 8px;
     display: flex;
     align-items: center;
+    
 }
 
 .card-reverse {
@@ -300,6 +306,8 @@ li:hover {
     margin-top: 20px;
     cursor: pointer;
 }
+
+
 a {
     text-decoration: none;
     color: #ffffff;
@@ -309,43 +317,133 @@ a {
     a {
       font-size: 12px;
     }
-    body{
-        display: block;
+    
+    
+    .navbar{
+        display: none;
     }
-
-    .profile-container{
+    .active {
+        width: calc(100vw - 80px);
         display: block;
-        margin-left: 30px;
-    }
-
-    .project-container{
-        display: block;
+        align-items: center;
+        text-align: center;
        
+    }
+   
+    #menu-icon{
+        display: flex;
+        color: white;
+        position: fixed;
+        z-index: 2;
+        padding: 2rem;
+        width: 1rem;
+        
+    }
+    header{
+        width: 5rem;
+        height: 8rem;
+    }
+    .profile-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: calc(100vh - 120px);
+      
+       
+    }
+    .profile-card{
+        width: 20rem;
+    }
+    .profile-content{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 100%
+    }
+    .content-container{
+        display: block;
+        
     }
     .project-card{
         display: block;
-        height: auto;
-        background: transparent;
-        margin-left: 50px;
+        width: 200px;
+       
     }
-    .card-reverse{
+    .card-reverse {
+        flex-direction: column;
+    }
+
+    .right{
+        all: unset;
+    } 
+    .left{
+        all: unset;
+    }
+    
+    .project-image{
+        
+        all: unset;
+        width: 300px;
+        height: 9rem;
+    }
+    .image-reverse {
         display: block;
-        height: auto;
+        left: auto;
         
     }
     .project-text{
-        display: none;
-      
+        width: 300px;
+        
+       
     }
-    .divider{
-        display: none;
+    .project-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
     }
+    .project-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        margin-right: 80px;
+    }    
     .position-container{
-     display: grid;
-     grid-template-columns: 1fr;
-     align-items: end;
+        display: flex;
+        flex-direction: column;
+        margin: 2rem;
+       
+       
     }
-
    
+    
+  }
+
+  @media (max-width: 1435px) {
+    .profile-container{
+        width: 100vw;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        
+               
+    }
+    .profile-sinopse{
+        display: none;
+    }
+    .image-reverse{
+        margin-right: 4rem;
+    }
+    .project-text{
+        width: 300px;
+        height: 30px;
+        font-size: 1rem;
+    }
+    
+
+
+    
   }
  

@@ -1,3 +1,13 @@
+// Selecionar o ícone e o menu
+const menuIcon = document.getElementById("menu-icon");
+const navbar = document.getElementById("navbar");
+
+
+menuIcon.addEventListener("click", () => {
+  console.log("cliquei")
+  navbar.classList.toggle("navbar");
+});
+
 
 function projetos(){
     let vh = 100; 

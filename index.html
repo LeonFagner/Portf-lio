@@ -6,13 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leon Fagner</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
 </head>
 <body>
     
-    <header>
-        <nav>
-            <ul>
-                
+    <header class="header">
+        <i class="fas fa-bars menu-icon" id="menu-icon"></i>
+        <nav class="navbar" id="navbar">
+            <ul class="active">
                 <li onclick="tecnologias()">Home</li>
                 <li onclick="projetos()" id="projetos">Projetos</li>
                 <li onclick="contatos()">Contato</li>
@@ -61,7 +64,7 @@
                 
                 <div class="position-container right">
                     <div class="project-card">
-                        <image class="project-image" src="./assets/batmanimage.jpeg" />
+                        <a href=""><image class="project-image" src="./assets/batmanimage.jpeg" /></a>
                         <p class="project-text">
                             Landing Page : Projeto criado no curso Profissão progrador utilização de tecnologia como Html , css e o conceito de resposividade implementado!
                         </p>
@@ -70,7 +73,7 @@
 
                 <div class="position-container left">
                     <div class="project-card card-reverse">
-                        <image class="project-image image-reverse" src="./assets/projeto-star-wars-characters.jpg" />
+                        <a href=""><image class="project-image image-reverse" src="./assets/projeto-star-wars-characters.jpg" /></a>
                         <p class="project-text">
                            Projeto Star Wars : Cosumindo API do star wars utilizando tecnologia como javascript, html, css onde traz informações de modo geral relacionada ao personagens, planetas, naves.
                         </p>
@@ -79,7 +82,7 @@
 
                 <div class="position-container right">
                     <div class="project-card">
-                        <image class="project-image" src="./assets/Captura de Tela (12).png" />
+                        <a href=""><image class="project-image" src="./assets/Captura de Tela (12).png" /></a>
                         <p class="project-text">
                             TheMovies : Projeto criado com React, detalhamento e sinopse dos filmes , topicos como avaliação , views, orçamento, receita, duração. Informações fornecidas pela API.
                         </p>
@@ -105,7 +108,7 @@
                 <p>Obrigado por visitar meu perfil. Se você estiver interessado em discutir oportunidades de carreira ou tiver alguma pergunta sobre meu currículo, por favor, entre em contato comigo através do WhatsApp</p>
                 
                 <button class="whatsapp-button" id=" whatsapp-id" onclick="redirectWhatsApp()"> Contato </button>
-                <a href="./assets/Leon_Fagner_currículo (1).pdf" download="currículo Leon Fagner">
+                <a href="./assets/Leon_Fagner_-_Software_Developer.pdf" download="currículo Leon Fagner">
                     <span>Download Cv </span>
                   </a>
             </div>
@@ -117,5 +120,6 @@
 
 
 <script src="./script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
