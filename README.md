@@ -19,7 +19,7 @@ Sou estudante de Engenharia de Software na PUC e desenvolvedor web com foco em s
   
 ## 🌐 Acesse meu portfólio
 
-👉 [Clique aqui para acessar](https://leonfagner.github.io/Portf-lio)
+<a href="https://fagner-dev.netlify.app/" target="_blank">👉 Clique aqui para acessar meu portfólio</a>
 
 ## 📬 Contato
 
