@@ -17,9 +17,9 @@ Sou estudante de Engenharia de Software na PUC e desenvolvedor web com foco em s
 - TypeScript 
 
   
-## 📷 Prévia
+## 🌐 Acesse meu portfólio
 
-[****]
+👉 [Clique aqui para acessar](https://leonfagner.github.io/Portf-lio)
 
 ## 📬 Contato
 
