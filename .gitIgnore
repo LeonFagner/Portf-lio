@@ -1,0 +1,41 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+dist/
+.build/
+.next/
+out/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.*.local
+
+# Editor folders
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Logs
+logs/
+*.log
+
+# Coverage
+coverage/
+
+# Optional: ignore your local dependencies if any
+*.local
+
+# Mac specific
+*.DS_Store
